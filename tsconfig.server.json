@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/server",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": [],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "server/**/*.ts"
+  ]
+}
